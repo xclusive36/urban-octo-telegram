@@ -1,56 +1,117 @@
 * {
+    /*
+        for all elements,
+        set box-sizing as border-box to make it easier to calculate the width of elements
+        set padding and margin to 0 to remove default browser styling
+    */
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
 body {
+    /*
+        for the body element,
+        set background-color to #d9dcd6
+    */
     background-color: #d9dcd6;
 }
 
-.header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
-}
-
-.header h1 {
-    display: inline-block;
-    font-size: 48px;
-}
-
-.header h1 .seo {
-    color: #d9dcd6;
-}
-
-.header div {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
-
-.header div ul {
-    list-style-type: none;
-}
-
-.header div ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
 a {
+    /*
+        for all a elements,
+        set color to #ffffff
+        set text-decoration to none
+    */
     color: #ffffff;
     text-decoration: none;
 }
 
 p {
+    /*
+        for all p elements,
+        set font-size to 16px
+    */
     font-size: 16px;
 }
 
+.header {
+    /*
+        for the header element,
+        set padding to 20px
+        set font-family to "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif
+        set background-color to #2a607c
+        set color to #ffffff
+    */
+    padding: 20px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+.header h1 {
+    /*
+        for the h1 element inside the header element,
+        set font-size to 48px and display as inline-block
+    */
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header h1 .seo {
+    /*
+        for the .seo class inside the h1 element inside the header element,
+        set color to #d9dcd6
+    */
+    color: #d9dcd6;
+}
+
+.header div {
+    /*
+        for the div element inside the header element,
+        set padding-top to 15px
+        set margin-right to 20px
+        set float to right
+        set font-family to "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif
+        set font-size to 20px
+    */
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    font-size: 20px;
+}
+
+.header div ul {
+    /*
+        for the ul element inside the div element inside the header element,
+        set list-style-type to none
+    */
+    list-style-type: none;
+}
+
+.header div ul li {
+    /*
+        for the li element inside the ul element inside the div element inside the header element,
+        set display as inline-block
+        set margin-left to 25px
+    */
+    display: inline-block;
+    margin-left: 25px;
+}
+
 .hero {
+    /*
+        for the hero element,
+        set height to 800px
+        set width to 100%
+        set margin-bottom to 25px
+        set background-image to url("../images/digital-marketing-meeting.jpg")
+        set background-size to cover
+        set background-position to center
+    */
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -60,141 +121,286 @@ p {
 }
 
 .float-left {
+    /*
+        for the .float-left element,
+        set float to left
+        set margin-right to 25px
+    */
     float: left;
     margin-right: 25px;
 }
 
 .float-right {
+    /*
+        for the .float-right element,
+        set float to right
+        set margin-left to 25px
+    */
     float: right;
     margin-left: 25px;
 }
 
 .content {
+    /*
+        for the .content element,
+        set width to 75%
+        set display as inline-block
+        set margin-left to 20px
+    */
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
 .benefits {
+    /*
+        for the .benefits element,
+        set margin-right to 20px
+        set padding to 20px
+        set clear to both
+        set float to right
+        set width to 20%
+        set height to 100%
+        set font-family to "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif
+        set background-color to #2589bd
+    */
     margin-right: 20px;
     padding: 20px;
     clear: both;
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
     background-color: #2589bd;
 }
 
 .benefit-lead {
+    /*
+        for the .benefit-lead element,
+        set margin-bottom to 32px
+        set color to #ffffff
+    */
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 .benefit-brand {
+    /*
+        for the .benefit-brand element,
+        set margin-bottom to 32px
+        set color to #ffffff
+    */
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 .benefit-cost {
+    /*
+        for the .benefit-cost element,
+        set margin-bottom to 32px
+        set color to #ffffff
+    */
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 .benefit-lead h3 {
+    /*
+        for the h3 element inside the .benefit-lead element,
+        set margin-bottom to 10px
+        set text-align to center
+    */
     margin-bottom: 10px;
     text-align: center;
 }
 
 .benefit-brand h3 {
+    /*
+        for the h3 element inside the .benefit-brand element,
+        set margin-bottom to 10px
+        set text-align to center
+    */
     margin-bottom: 10px;
     text-align: center;
 }
 
 .benefit-cost h3 {
+    /*
+        for the h3 element inside the .benefit-cost element,
+        set margin-bottom to 10px
+        set text-align to center
+    */
     margin-bottom: 10px;
     text-align: center;
 }
 
 .benefit-lead img {
+    /*
+        for the img element inside the .benefit-lead element,
+        set display as block
+        set margin to 10px auto
+        set max-width to 150px
+    */
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 .benefit-brand img {
+    /*
+        for the img element inside the .benefit-brand element,
+        set display as block
+        set margin to 10px auto
+        set max-width to 150px
+    */
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 .benefit-cost img {
+    /*
+        for the img element inside the .benefit-cost element,
+        set display as block
+        set margin to 10px auto
+        set max-width to 150px
+    */
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
 .search-engine-optimization {
+    /*
+        for the .search-engine-optimization element,
+        set margin-bottom to 20px
+        set padding to 50px
+        set height to 300px
+        set font-family to "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif
+        set background-color to #0072bb
+        set color to #ffffff
+    */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
 
 .online-reputation-management {
+    /*
+        for the .online-reputation-management element,
+        set margin-bottom to 20px
+        set padding to 50px
+        set height to 300px
+        set font-family to "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif
+        set background-color to #0072bb
+        set color to #ffffff
+    */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
 
 .social-media-marketing {
+    /*
+        for the .social-media-marketing element,
+        set margin-bottom to 20px
+        set padding to 50px
+        set height to 300px
+        set font-family to "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif
+        set background-color to #0072bb
+        set color to #ffffff
+    */
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
 
 .search-engine-optimization img {
+    /*
+        for the img element inside the .search-engine-optimization element,
+        set max-height to 200px
+    */
     max-height: 200px;
 }
 
 .online-reputation-management img {
+    /*
+        for the img element inside the .online-reputation-management element,
+        set max-height to 200px
+    */
     max-height: 200px;
 }
 
 .social-media-marketing img {
+    /*
+        for the img element inside the .social-media-marketing element,
+        set max-height to 200px
+    */
     max-height: 200px;
 }
 
 .search-engine-optimization h2 {
+    /*
+        for the h2 element inside the .search-engine-optimization element,
+        set margin-bottom to 20px
+        set font-size to 36px
+    */
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 .online-reputation-management h2 {
+    /*
+        for the h2 element inside the .online-reputation-management element,
+        set margin-bottom to 20px
+        set font-size to 36px
+    */
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 .social-media-marketing h2 {
+    /*
+        for the h2 element inside the .social-media-marketing element,
+        set margin-bottom to 20px
+        set font-size to 36px
+    */
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 .footer {
+    /*
+        for the .footer element,
+        set padding to 30px
+        set clear to both
+        set font-family to "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif
+        set text-align to center
+    */
     padding: 30px;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
     text-align: center;
 }
 
 .footer h2 {
+    /*
+        for the h2 element inside the .footer element,
+        set font-size to 20px
+    */
     font-size: 20px;
 }
